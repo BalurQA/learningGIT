@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="actiTimeTestCases.VerifyLoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- actiTimeTestCases.VerifyLoginTest -->
+      <class name="actiTimeTestCases.VerifyHomePage">
+        <methods>
+          <include name="setUp"/>
+          <include name="HomePageVerification"/>
+        </methods>
+      </class> <!-- actiTimeTestCases.VerifyHomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
